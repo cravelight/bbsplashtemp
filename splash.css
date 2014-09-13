@@ -1,0 +1,174 @@
+/* RESET */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+}
+
+
+/* CLASSES */
+
+.container {
+	margin-right: auto !important;
+	margin-left: auto !important;
+	padding-right: 30px !important;
+	padding-left: 30px !important;
+	max-width: 600px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+
+/* TYPOGRAPHY */
+
+body {
+	font: 16px/1.5 'Roboto';
+	text-rendering: optimizeLegibility;
+	background: #242424;
+}
+
+
+/* WRAP */
+
+.wrap {
+	padding: 120px 0;
+	color: white;
+	text-align: center;
+	background: url(background.jpg) no-repeat center;
+	background-size: cover;	
+}
+
+.logo {
+	max-width: 60%;
+	height: 150px;
+}
+
+.desc {
+	margin: 50px 0;
+	font-weight: 100;
+	font-size: 32px;
+}
+
+.launching {
+	font-weight: 100;
+	padding-top: 14px;
+}
+
+.signup {
+	color: #e4e4e4;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 14px;
+	padding-top: 28px;
+}
+
+form {
+	position: relative;
+	margin: 30px auto 0;
+	max-width: 360px;
+	font-size: 0;
+}
+
+input {
+	border: none;
+	border-radius: 100px;
+	text-align: center;
+	font-size: 18px;
+	font-family: inherit;
+}
+
+input:focus {
+	outline: none;
+}
+
+::-webkit-input-placeholder {
+	color: #e4e4e4;
+}
+
+::-moz-placeholder {
+	color: #e4e4e4;
+}
+
+:-ms-input-placeholder {
+	color: #e4e4e4;
+}
+
+:-moz-placeholder {
+	color: #e4e4e4;
+}
+
+input[type="email"] {
+	display: block;
+	padding: 12px;
+	width: 100%;
+	color: #242424;
+
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+input[type="submit"] {
+	position: absolute;
+	top: 4px;
+	right: 4px;
+	width: 40px;
+	height: 40px;
+	background: #242424 url(arrow.svg) no-repeat center;
+	color: white;
+	text-indent: -999em;
+	cursor: pointer;
+
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+
+/* FOOTER */
+
+.footer {
+	padding: 48px 0;
+	color: #646464;
+	font-size: 14px;
+}
+
+.footer a {
+	color: #646464;
+	text-decoration: none;
+}
+
+.footer a:hover {
+	color: #d9d9d9;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+	.launching {
+		display: inline;
+	}
+}
+
+@media (max-width: 480px) {
+	.wrap {
+		padding: 60px 0;
+	}
+
+	.desc {
+		margin: 30px 0;
+	}
+}
