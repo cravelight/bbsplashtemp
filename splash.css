@@ -11,6 +11,17 @@
 /* CLASSES */
 
 .container {
+	max-width: 990px;
+}
+.band {
+	background-color: rgba(34, 34, 34, 0.5);
+	padding: 12px 24px;
+	margin: 12px auto;
+}
+.container p {
+	font-weight: 100;
+}
+.signup-wrap {
 	margin-right: auto !important;
 	margin-left: auto !important;
 	padding-right: 30px !important;
@@ -34,7 +45,7 @@
 /* TYPOGRAPHY */
 
 body {
-	font: 16px/1.5 'Roboto';
+	font: 13px/1.5 'Roboto';
 	text-rendering: optimizeLegibility;
 	background: #242424;
 }
@@ -63,7 +74,7 @@ body {
 
 .launching {
 	font-weight: 100;
-	padding-top: 14px;
+	padding-top: 24px;
 }
 
 .signup {
@@ -72,6 +83,13 @@ body {
 	letter-spacing: 1px;
 	font-size: 14px;
 	padding-top: 28px;
+}
+.feature {
+	color: #e4e4e4;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 14px;
+	padding-top: 6px;
 }
 
 form {
@@ -189,4 +207,10 @@ input[type="submit"] {
 
 .attribution a:hover {
 	color: #646464;
+}
+
+.feature-img {
+width: 48px;
+height: 48px;
+margin: 24px auto 16px auto;
 }
